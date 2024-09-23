@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site pessoal para compartilhar documentos">
+    <title>Documentos Pessoais - Mr. Albach</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        .file-list {
+            margin-top: 20px;
+        }
+        .file-list a {
+            text-decoration: none;
+            color: #007BFF;
+            display: block;
+            margin: 10px 0;
+        }
+        .file-list a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>Documentos Pessoais - Mr. Albach</header>
+    <div class="container">
+        <p>Bem-vindo ao meu site pessoal. Aqui você pode acessar meus documentos pessoais.</p>
+        
+        <div class="file-list">
+            <h3>Meus Arquivos:</h3>
+            <a href="documento1.pdf" download>Baixar Documento 1</a>
+            <a href="documento2.pdf" download>Baixar Documento 2</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Mr. Albach. Todos os direitos reservados.
+    </footer>
+</body>
+</html>
